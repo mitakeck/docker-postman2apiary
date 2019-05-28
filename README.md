@@ -9,5 +9,5 @@ docker build -t mitakeck/postman2apiary .
 ## run
 
 ```
-docker run -v `pwd`:/work mitakeck/hoge postman_collection.json index.html
+docker run -v `pwd`:/work mitakeck/postman2apiary postman_collection.json index.html
 ```
